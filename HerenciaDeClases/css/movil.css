@@ -1,0 +1,61 @@
+.section-movil{
+    max-width: 375px;
+    padding: 0 1rem;
+}
+.bg-color-sectio-ram{
+    background-color: #f5f5f5;
+}
+.section-ram {
+    display: flex;
+    flex-direction: column;
+} 
+.section-ram_titulo{
+    font-size: var(--h2);
+    color: var(--Texto);
+    margin-top: 5rem;
+    text-align: center;
+    font-weight: bold;
+}
+.section-ram_imagenes{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 8rem;
+}
+.section-ram_descripcion{
+    font-size: var(--Parrafo);
+    color: var(--Texto);
+    margin-top: 4rem;
+    text-align: center;
+
+}
+.section-ram_Orden-Boton {
+    text-decoration: none;
+    
+    min-width: 10rem;
+    height: 3rem;
+    border-radius: 5%;
+    background-color: var(--Boton);
+    color: var(--texto);
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    align-self: center;
+    padding: 0 0.5rem;
+    
+}
+.section-ram_Flecha{
+   width: 15px;
+   height: 15px;
+   margin-top: 0.3rem;
+
+}
+ .section-ram_Boton{
+    text-decoration: none;
+    color: var(--texto);
+    margin-right: 1rem;
+} 

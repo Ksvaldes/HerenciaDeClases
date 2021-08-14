@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;   
+    font-size: 10px;
+}
+
+
+:root {
+    --Boton :rgb(180, 189, 186);
+    --Texto :rgb(27, 35, 49);
+
+    --h2 : 3rem;
+    --Parrafo : 2rem;
+}
+.background-section {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;}
+
+.section-body {
+    max-width: 130rem;
+    height: auto;
+    margin: auto;}
